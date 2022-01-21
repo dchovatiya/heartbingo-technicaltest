@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8038080000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able to navigate to the login page",
+        "description": "",
+        "id": "validate-the-login-functionality;user-should-be-able-to-navigate-to-the-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 908516400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 252995900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BingoSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 596607400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on login link \"Log In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log In",
+                  "offset": 23
+                }
+              ],
+              "location": "BingoSteps.iClickOnLoginLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2244176100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter Username \"primeTest123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "primeTest123@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "BingoSteps.enterUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417733900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "password \"123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456",
+                  "offset": 10
+                }
+              ],
+              "location": "BingoSteps.password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2161544000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on login button",
+            "match": {
+              "location": "BingoSteps.clickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819544300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "error message is displayed",
+            "match": {
+              "location": "BingoSteps.errorMessageIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login functionality",
+    "description": "User should be able to login with the valid credentials",
+    "id": "validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "bingo.feature"
+  }
+]
